@@ -30,7 +30,7 @@ ENCRYPTED_FLAG = "cvpbPGS{arkg_gvzr_V'yy_gel_2_ebhaqf_bs_ebg13_jdJBFOXJ}"
 print(f"Encrypted flag: {ENCRYPTED_FLAG}")
 
 # either us the codecs python module or write an own rot13 function, see above
-# flag_only_letters = codecs.encode(encrypted_flag_only_letters, "rot13")
+#decrypted_flag = codecs.encode(ENCRYPTED_FLAG, "rot13")
 decrypted_flag = get_rot13_applied(ENCRYPTED_FLAG)
 
 
